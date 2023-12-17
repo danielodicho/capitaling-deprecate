@@ -14,6 +14,6 @@ app.get('/', (req, res) => {
 // });
 
 app.get('/api/test', (req, res) => {
-    res.send('Backend is connected!');
+    res.send('Backend is connhected!');
   });
   
