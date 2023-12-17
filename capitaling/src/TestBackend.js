@@ -5,12 +5,13 @@ function TestBackend() {
 
   useEffect(() => {
     // Fetch data from your Express server
-    fetch('/api/test')
-      .then(response => response.text())
-      .then(data => {
-        setResponse(data);
-      })
-      .catch(error => console.error('Error fetching data:', error));
+    fetch('http://localhost:3001/api/test')
+  .then(response => response.text())
+  .then(data => {
+    setResponse(data);
+  })
+  .catch(error => console.error('Error fetching data:', error));
+
   }, []);
 
   return (
