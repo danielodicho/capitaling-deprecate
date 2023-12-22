@@ -1,0 +1,5 @@
+[
+    { "name": "name1", "capital": "capital1", "flag": "flag1" },
+    { "name": "name2", "capital": "capital2", "flag": "flag2" },
+    { "name": "name3", "capital": "capital3", "flag": "flag3" }
+]       
