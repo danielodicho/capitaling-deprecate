@@ -1,0 +1,38 @@
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.flag-container {
+    margin-bottom: 20px;
+}
+
+.flag-container img {
+    max-width: 50%; /* Adjust the size of the flag */
+    height: auto;
+}
+
+.options-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.option-label {
+    margin: 10px;
+}
+
+.options-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.submit-button {
+    margin-top: 20px;
+}
